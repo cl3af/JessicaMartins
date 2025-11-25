@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Infantil</title>
+
+    <style>
+
+         .logo {
+            width: 200px;
+            height: 200px;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background:  linear-gradient(rgba(61, 61, 61, 0.4), rgba(0, 0, 0, 0.4)),
+            url(img/fundo.jpg); 
+
+            color: #333;
+            background-size: cover;       /* cobre a tela inteira */
+            background-repeat: no-repeat; /* evita repetição */
+            background-position: center;  /* centraliza */
+            background-attachment: fixed; /* efeito "parallax suave" */
+        }
+
+        header {
+            background: #FFFCF7;
+            padding: 0px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            background: #A7D9D0;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        nav a {
+        background: #F2BEA0;
+        color: white;
+        padding: 10px 5px;
+        border-radius: 10px;
+        font-size: 15px;
+        text-decoration: none;
+        transition: 0.3s;
+        }
+
+        nav a:hover {
+    background: #A6826D;
+    transform: translateY(-2px);
+}
+
+nav a:hover {
+    background: #A6826D;
+    transform: translateY(-2px);
+}
+
+
+        .container {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .atendimentoPsic {
+           background: 
+             linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+
+            background-attachment: fixed; /* efeito "parallax suave" */
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat; /* evita repetição */
+            color: #FFFFFF; 
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00000010;
+        }
+
+        .doutora {
+            background: 
+             linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+             url(img/atendimento.jpg);
+            background-attachment: fixed; /* efeito "parallax suave" */
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat; /* evita repetição */
+            color: #FFFFFF; 
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00000010;
+        }
+
+        .sobreDiagnostico {
+             background: 
+             linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+            url(img/sobreDiag.jpg);
+
+            background-attachment: fixed; /* efeito "parallax suave" */
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat; /* evita repetição */
+            color: #FFFFFF; 
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00000010;
+        }
+
+        .section {
+            background: 
+             linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+            color: #FFFFFF; 
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00000010;
+        }
+
+        footer {
+            background: #A7D9D0;
+            text-align: center;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        button {
+        background: #F2BEA0;
+        color: white;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s; /* deixa suave */
+        }
+
+        button:hover {
+        background: #A6826D;
+        transform: translateY(-2px); /* sobe um pouquinho ao passar o mouse */
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo.jpg" alt="" class="logo">
+    </header>
+
+    <nav>
+    <a href="sobre.html" class="btn">Sobre a Especialista</a>
+    <a href="diagnosticos.html" class="btn">Diagnóstico</a>
+    <a href="#" class="btn">Contato</a>
+</nav>
+
+
+    <div class="container">
+
+        <div class="atendimentoPsic">
+            <h2>Atendimento Psicopedagógico</h2>
+            <p>Atendimento especializado, baseado em amplos estudos para ajudar na superação de dificuldades como escrita,</p>
+            <p>matemática, memória, linguagens e outros.</p> 
+        </div>
+
+        <div class="doutora">
+            <h2>Sobre a Especialista</h2>
+            <p>Jessica Martins é amplamente capacitada para o atendimento psicopedagógico. Com licenciatura em pedagogia</p>
+            <p>Pós-graduação em Psicopedagogia Clínica e Institucional, Pós-graduação em Educação Especial, Educação Inclusiva e Múltiplas Deficiências</p>
+            <p>e Mestrado em Psicologia da Educação (PUC-SP), é uma ótima profissional para efetuar as consultas!</p>
+        </div>
+
+        <div class="sobreDiagnostico">
+            <h2>Como Funciona o Diagnóstico</h2>
+            <p>O diagnóstico é baseado na avaliação da profissional, que, durante as sessões, aplica testes cognitivos e pedagógicos, observando</p>
+            <p>o comportamento e as atividades lúdicas, entregando um relatório e um plano de intervenção.</p>
+            <p>Dentre outros serviços oferecidos temos a orientação familiar, a sessão em domicilio, a sessão em grupo e a sessão online!</p> 
+        </div>
+
+        <div class="section">
+            <h2>Contato</h2>
+            <p>Envie uma mensagem no WhatsApp: <strong>(00) 00000-0000</strong></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2025 Clínica Infantil – Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
