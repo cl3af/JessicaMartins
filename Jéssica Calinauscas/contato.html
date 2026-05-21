@@ -15,14 +15,20 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background:  linear-gradient(rgba(61, 61, 61, 0.4), rgba(0, 0, 0, 0.4)),
-            url(img/contatoFundo.jpg); 
+            background:
+            linear-gradient(rgba(61, 61, 61, 0.4), rgba(0, 0, 0, 0.4)),
+            url(img/contatoFundo.jpg);
 
             color: #333;
-            background-size: cover;       /* cobre a tela inteira */
-            background-repeat: no-repeat; /* evita repetição */
-            background-position: center;  /* centraliza */
-            background-attachment: fixed; /* efeito "parallax suave" */
+
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
 
         header {
@@ -56,16 +62,17 @@
     transform: translateY(-2px);
 }
 
-nav a:hover {
-    background: #A6826D;
-    transform: translateY(-2px);
-}
+    nav a:hover {
+        background: #A6826D;
+        transform: translateY(-2px);
+    }
 
 
         .container {
             padding: 40px 20px;
             max-width: 900px;
             margin: auto;
+            flex: 1;
         }
 
         .atendimentoPsic {
